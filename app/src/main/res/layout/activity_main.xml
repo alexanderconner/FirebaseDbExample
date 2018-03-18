@@ -80,14 +80,15 @@
         android:id="@+id/findUser_editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
         android:layout_marginEnd="36dp"
         android:layout_marginStart="18dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:theme="@style/AppTheme"
+        app:layout_constraintBottom_toTopOf="@+id/find_button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/find_textView"
-        tools:layout_editor_absoluteY="357dp" />
+        app:layout_constraintStart_toEndOf="@+id/find_textView" />
 
     <EditText
         android:id="@+id/YOB_editText"
@@ -119,11 +120,9 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="148dp"
         android:layout_marginStart="148dp"
-        android:layout_marginTop="26dp"
         android:text="Find"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/findUser_editText" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
