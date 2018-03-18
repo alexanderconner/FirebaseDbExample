@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.astralbody888.alexanderconner.firebasedbexample.MainActivity">
+
+    <TextView
+        android:id="@+id/FirstName_textView2"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="First Name"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/FirstName_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/LastName_textView"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Last Name"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/LastName_editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FirstName_textView2" />
+
+    <TextView
+        android:id="@+id/YOB_textView"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="Year of Birth"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LastName_textView" />
+
+    <TextView
+        android:id="@+id/find_textView"
+        android:layout_width="99dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="108dp"
+        android:layout_marginStart="16dp"
+        android:text="Find User YOB"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/FirstName_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:theme="@style/AppTheme"
+        app:layout_constraintBaseline_toBaselineOf="@+id/FirstName_textView2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/LastName_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:theme="@style/AppTheme"
+        app:layout_constraintBaseline_toBaselineOf="@+id/LastName_textView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/findUser_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:theme="@style/AppTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/find_textView"
+        tools:layout_editor_absoluteY="357dp" />
+
+    <EditText
+        android:id="@+id/YOB_editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:theme="@style/AppTheme"
+        app:layout_constraintBaseline_toBaselineOf="@+id/YOB_textView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="24dp"
+        android:text="Submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/YOB_editText" />
+
+    <Button
+        android:id="@+id/find_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="26dp"
+        android:text="Find"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/findUser_editText" />
+
+</android.support.constraint.ConstraintLayout>

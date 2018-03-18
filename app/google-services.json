@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "288439129631",
+    "firebase_url": "https://fir-demo-project-d84df.firebaseio.com",
+    "project_id": "fir-demo-project-d84df",
+    "storage_bucket": "fir-demo-project-d84df.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288439129631:android:6114f4026d9d68e3",
+        "android_client_info": {
+          "package_name": "com.astralbody888.alexanderconner.firebasedbexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288439129631-sgv2r6rs53oae21r3pql6ucg78npnl3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzGpFE7P7ta77gHyNAVLmXYlp6PSpiknY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
